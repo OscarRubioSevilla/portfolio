@@ -1,0 +1,5 @@
+@layer components {
+    .menu-option {
+        @apply text-2xl hover:underline hover:scale-110 hover:transition-transform;
+    }
+}

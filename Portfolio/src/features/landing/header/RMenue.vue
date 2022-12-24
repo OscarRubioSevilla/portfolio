@@ -1,9 +1,9 @@
 <template>
     <div class="menu-wrap z-40">
-        <div class="menu flex flex-col items-center mt-20">
-            <div><span>Opción 1</span></div>
-            <div><span>Opción 2</span></div>
-            <div><span>Opción 3</span></div>
+        <div class="menu flex flex-col items-center gap-2 mt-20">
+            <a class="menu-option" href="#">Home</a>
+            <a class="menu-option" href="#portfolio">Portafolio</a>
+            <a class="menu-option" href="#contacts">Contacto</a>
         </div>
     </div>
 </template>
@@ -11,10 +11,12 @@
 
 <style scoped>
 .menu-show .menu-wrap {
-    width: 300px;
-    height: 300px;
-    -moz-border-bottom-left-radius: 300px;
-    border-bottom-left-radius: 300px;
+    width: 400px;
+    height: 400px;
+    max-width: 100vw;
+    max-height: 100vw;
+    -moz-border-bottom-left-radius: 400px;
+    border-bottom-left-radius: 400px;
     -webkit-animation: anim-jelly 0.8s linear forwards;
     animation: anim-jelly 0.8s linear forwards;
 }
@@ -31,8 +33,8 @@
     height: 0;
     -webkit-transform-origin: 100% 0%;
     transform-origin: 100% 0%;
-    -moz-border-bottom-left-radius: 300px;
-    border-bottom-left-radius: 300px;
+    -moz-border-bottom-left-radius: 400px;
+    border-bottom-left-radius: 400px;
 }
 
 

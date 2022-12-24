@@ -12,7 +12,7 @@ const openMenu = () => open.value = !open.value;
 </script>
 <template>
     <header class="relative xz" :class="{ 'menu-show': open }">
-        <button class="absolute right-4 top-4 z-50 button" @click="openMenu">
+        <button class="fixed right-4 top-4 z-50 button" @click="openMenu">
             <Bars3Icon v-if="!open" class="h-8 w-8 text-white" />
             <XMarkIcon v-else class="h-8 w-8 text-white" />
         </button>
