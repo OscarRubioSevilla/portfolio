@@ -1,0 +1,36 @@
+/* https://www.color-blindness.com/color-name-hue/ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html,
+body {
+    font-family: 'Exo', sans-serif;
+    background-color: #AF88FD;
+}
+
+:root {
+    --primary: #161442; // 182051 
+    --primary-500: #121136;
+    --secondary: #52C7E4;
+    --dolphin: #696974;
+    --color-negro: #000000;
+    --color-blanco: #FFFFFF;
+    --rojo: #C13139;
+    --verde: #46B75C;
+    --silver: #B9B9B9;
+    --denim: #1D72B3;
+}
+
+@layer base {
+    [data-theme="default"] {
+        --primary: #a5a736;
+        --primary-500: #81822c;
+        --secondary: #e7ccf3;
+    }
+    [data-theme="neon"] {
+        --primary: #ac7d4e;
+        --primary-500: #6b7500;
+        --secondary: #1e8c34;
+    }
+}
