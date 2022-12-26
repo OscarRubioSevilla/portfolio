@@ -2,12 +2,12 @@
     <div class="menu-wrap z-40">
         <div class="menu flex flex-col items-center gap-2 mt-20">
             <a class="menu-option" href="#">Home</a>
+            <a class="menu-option" href="#profile">Sobre mi</a>
             <a class="menu-option" href="#portfolio">Portafolio</a>
             <a class="menu-option" href="#contacts">Contacto</a>
         </div>
     </div>
 </template>
-
 
 <style scoped>
 .menu-show .menu-wrap {

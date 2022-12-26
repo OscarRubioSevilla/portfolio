@@ -10,9 +10,9 @@ module.exports = {
         'primary': 'var(--primary)',
         'primary-500': 'var(--primary-500)',
         'secondary': 'var(--secondary)',
-        'dolphin': 'var(--dolphin)',
         'silver': 'var(--silver)',
-        'denim': 'var(--denim)'
+        'denim': 'var(--denim)',
+        'black-rock': 'var(--black-rock)'
       },
     },
   },
