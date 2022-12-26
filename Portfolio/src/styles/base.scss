@@ -6,29 +6,10 @@ body {
 
 :root {
     --primary: #6034b7; // 182051 
-    --primary-500: #121136;
-    --secondary: #00d8e2;
     --black-rock: #313140;
-    --color-negro: #000000;
-    --color-blanco: #FFFFFF;
     --rojo: #C13139;
     --verde: #46B75C;
-    --silver: #B9B9B9;
-    --denim: #1D72B3;
-}
 
-@layer base {
-    [data-theme="default"] {
-        --primary: #a5a736;
-        --primary-500: #81822c;
-        --secondary: #e7ccf3;
-    }
-    [data-theme="neon"] {
-        --primary: #ac7d4e;
-        --primary-500: #6b7500;
-        --secondary: #1e8c34;
-    }
 }
-
 
 @import './components/button';

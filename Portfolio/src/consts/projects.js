@@ -4,14 +4,14 @@ export const PROJECTS = [
         image: 'quahr.png',
         link: 'https://www.quahr.com',
         repo: '',
-        tags: ['JAVASCRIPT', 'VUE', 'PHP', 'MYSQL', 'BOOTSTRAP']
+        tags: ['JAVASCRIPT', 'VUE', 'PHP', 'CODEIGNITER 3', 'MYSQL', 'BOOTSTRAP']
     },
     {
         name: 'TARJETA WEB',
         image: 'tarjetaweb.png',
         link: 'https://www.tarjetaweb.mx',
         repo: '',
-        tags: ['REACT','PHP','MYSQL','TYPESCRIPT', 'TAILWIND']
+        tags: ['REACT','PHP','MYSQL', 'CODEIGNITER 4', 'TYPESCRIPT', 'TAILWIND']
     },
     {
         name: 'VIU',
